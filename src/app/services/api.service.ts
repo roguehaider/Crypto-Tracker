@@ -19,7 +19,7 @@ export class ApiService {
     );
   }
 
-  getGraphicalCurrencyData(coinId: string, currency: string, days: string) {
+  getGraphicalCurrencyData(coinId: string, currency: string, days:number) {
     return this.http.get<any>(
       `https://api.coingecko.com/api/v3/coins/${coinId}/market_chart?vs_currency=${currency}&days=${days}`
     );

@@ -27,7 +27,7 @@
 
 .banner {
   background-image: url("../../assets/images/888108.png");
-  height: 700px;
+  height: 500px;
   width: 100%;
 }
 
@@ -62,3 +62,48 @@
     font-weight: 700;
   }
 }
+
+
+/* Structure */
+.example-container {
+  position: relative;
+}
+
+.example-table-container {
+  margin-top: 50px;
+  position: relative;
+  min-height: 200px;
+  max-height: 400px;
+  overflow: auto;
+
+}
+
+table {
+  width: 100%;
+}
+
+
+
+.example-rate-limit-reached {
+  max-width: 360px;
+  text-align: center;
+}
+
+/* Column Widths */
+.mat-column-number,
+.mat-column-state {
+  width: 64px;
+}
+
+.mat-column-created {
+  width: 124px;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: -20px;
+}
+
+
+
